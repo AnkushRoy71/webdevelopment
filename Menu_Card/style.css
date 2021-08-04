@@ -1,0 +1,51 @@
+*{
+ box-sizing: border-box;
+}
+#container{  
+    width: 100%;
+}
+.heading{
+
+    position: absolute;
+    top:0px;
+    right: 0px;
+    /* float: right; */
+    border: 1px solid black;
+    background-color: red;
+    margin: 0px;
+    padding-left: 8px;
+    
+}
+.card{
+    position: relative;
+    box-sizing: border-box;
+    float: left;
+    
+    height: auto;
+    border: 1px solid black;
+    padding: 9px;
+    margin: 9px;
+    background-color: grey;
+}
+.con{
+    float: left;
+    width: 33.33%;
+}
+/* p{
+    clear: both; 
+} */
+@media  (min-width:768px) and ( max-width : 991px){
+    
+    .con{
+        width:50%;
+    }
+    #special{
+        width :100%;
+    }
+}
+@media ( max-width : 767px){
+    .con{
+        width:100%;
+        margin-bottom: 17px;
+    }
+}
