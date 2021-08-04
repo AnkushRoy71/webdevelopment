@@ -1,0 +1,40 @@
+
+#container{  
+    width: 100%;
+}
+.heading{
+
+    margin: -10px; 
+    float: right;
+    border: 1px solid black;
+    background-color: red;
+    padding-left: 8px;
+}
+.card{
+    box-sizing: border-box;
+    float: left;
+    width: 31.33%; 
+    height: auto;
+    border: 1px solid black;
+    padding: 9px;
+    margin: 9px;
+    background-color: grey;
+}
+p{
+    clear: both; 
+}
+@media  (min-width:768px) and ( max-width : 991px){
+    
+    .card{
+        width:47%;
+    }
+    #special{
+        width :100%;
+    }
+}
+@media ( max-width : 767px){
+    .card{
+        width:100%;
+        margin-bottom: 17px;
+    }
+}
